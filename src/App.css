@@ -1,26 +1,31 @@
-.App{
-  margin: auto;
-  position: relative;
-  width: 500px;
-}
-.digits{
+body{
+  background-color: black;
+  color: white;
   font-size: 8rem;
+  text-align: center;
+
+  
+  
 }
-.description{
+.Hour{
   font-size: 1.5rem;
-  color: #949a9c;
-   
+  position: relative;
+  top: -100px;
+  left: -80px;
 }
-#hour{
-  position: absolute;
-  left: 40px;
-}
-#minute{
-  position: absolute;
-  left: 200px;
+.Min{
+  font-size: 1.5rem;
+  position: relative;
+  top: -100px;
+  left: 20px;
+  
 
 }
-#second{
-  position: absolute;
-  right: 50px;
+.Sec{
+  font-size: 1.5rem;
+  position: relative;
+  top: -100px;
+  left: 100px;
 }
+
+
