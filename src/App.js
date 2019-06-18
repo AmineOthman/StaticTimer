@@ -1,5 +1,5 @@
 import React from 'react';
-import Time from './Time';
+import Timer from './Time';
 import './App.css';
 
 
@@ -10,10 +10,15 @@ import './App.css';
 function App() {
   return (
     <div className="Time">
-      <span className="Timer"><Time/></span><br/>
-      <span className="Hour">Hours</span>
-      <span className="Min">Minutes</span>
-      <span className="Sec">Seconds</span>
+      <span className="Timer"><Timer/></span><br/>
+      <div className="desc">
+
+       <span className="Hour">HH/</span>
+       <span className="Min">MM/</span>
+       <span className="Sec">SS</span>
+
+      </div>
+
       
       
     </div>

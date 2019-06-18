@@ -1,0 +1,12 @@
+.buttons{
+    padding: 15px 25px;
+}
+.start{
+    background-color: skyblue;
+    border: none
+
+}
+.reset{
+    background-color: tomato;
+    border: none;
+}

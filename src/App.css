@@ -1,31 +1,20 @@
 body{
   background-color: black;
   color: white;
-  font-size: 8rem;
-  text-align: center;
+  text-align: center; 
+}
+.Timer{
+  font-size: 2rem
+}
 
-  
-  
-}
-.Hour{
+.desc{
   font-size: 1.5rem;
-  position: relative;
-  top: -100px;
-  left: -80px;
+  margin-top: -150px;
 }
-.Min{
-  font-size: 1.5rem;
-  position: relative;
-  top: -100px;
-  left: 20px;
-  
 
-}
-.Sec{
-  font-size: 1.5rem;
-  position: relative;
-  top: -100px;
-  left: 100px;
+.start{
+  margin: 20px;
+  
 }
 
 
